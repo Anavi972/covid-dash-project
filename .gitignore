@@ -1,0 +1,36 @@
+--- Python Specific ---
+
+Byte-compiled / optimized / DLL files
+
+pycache/
+*.py[cod]
+*$py.class
+
+Environments
+
+venv/
+env/
+
+Package installation files
+
+*.egg-info/
+.installed.cfg
+
+Local user-specific configuration (if you were to add environment variables later)
+
+.env
+.flaskenv
+
+Dash/Plotly Cache
+
+Dash often creates temporary files, though often they are memory based.
+
+--- Project Specific ---
+
+Ignore the directory where the large data CSV is saved after download
+
+dataset/
+
+--- Operating System Files ---
+
+.DS_Store
